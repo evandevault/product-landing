@@ -1,0 +1,129 @@
+body{
+	background-color: #f4f4f4;
+	color:#555;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 16px;
+	line-height: 1.6em;
+	margin: 0;
+	width: 80%;
+	margin: auto;
+}
+
+/*.container{
+	width: 80%;
+	margin: auto;
+	overflow: hidden;
+}*/
+
+
+#nav-bar{
+	background-color: darkturquoise;
+	color:lightslategray;
+	position: fixed;
+	top: 0;
+	width: 80%;
+	display: inline-flex;
+	text-align: center;
+}
+
+#nav-bar img{
+	margin: 0;
+	padding: 0;
+	width: 200px;
+	height: auto;
+}
+
+#nav-bar ul{
+	list-style-type: none;
+	margin:0;
+	text-align: center;
+	padding-bottom: .5em;
+}
+
+#nav-bar li{
+	display: inline;
+	justify-content: center;
+	text-align: center;	
+}
+
+#nav-bar a{
+	color: #fff;
+	text-decoration: none;
+	font-size: 18px;
+	padding-right: 15px;
+}
+
+#showcase h1{
+	color: darkturquoise;
+	display: flex;
+	justify-content: center;
+	align-content: center;
+	padding-top: 100px;
+	text-align: center;
+}
+
+#showcase{
+	background-image: url("../images/guavaBanner.jpg");
+	background-position: center right;
+	min-height: 300px;
+	margin-bottom: 30px;
+	text-align: center;
+}
+
+
+.video{
+	display: flex;
+	align-content: center;
+	justify-content: center;
+}
+
+.our-product{
+	text-align: center;
+}
+
+.flex-wrapper{
+	display: flex;
+	
+}
+
+.pricing{
+	height: auto;
+	width: 30%;
+	text-align: center;
+
+}
+
+.my-form{
+padding: 20px;
+}
+.my-form p{
+	text-align: center;
+}
+.form-group{
+	text-align: center;
+}
+
+.my-form input[type=email], .my-form textarea{
+    padding: 8px;
+    width: 50%;
+}
+
+#main-footer{
+	text-align: center;
+}
+
+#submit{
+	background-color: #333;
+	color: #fff;
+	padding: 15px 50px;
+	border: none;
+}
+
+#submit:hover{
+	background: red;
+	color: #fff;
+}
+
+.submit-wrapper{
+	text-align: center;
+}
